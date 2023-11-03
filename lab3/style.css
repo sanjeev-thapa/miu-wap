@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: #2ecc71;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 5em;
+    border-bottom: 2px solid black;
+}
+
+nav > button, .button-container button {
+    background-color: #474787;
+    color: white;
+    border: none;
+    padding: 1em 2em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+nav > button:hover, .button-container button:hover {
+    background-color: #0062a4;
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    margin: 2em 10em;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 2em;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th, tr, td {
+    border: 1px solid black;
+    padding: 0.5em 0em;
+    text-align: center;
+}
+
+th {
+    background-color: #7eca9d;
+}
+
+td input {
+    width: 3em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+td button {
+    padding: 0.2em 0.5em;
+}
+
+.quantity {
+    display: flex;
+    justify-content: center;
+}
+
+.total {
+    text-align: right;
+    padding-right: 2em;
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.title {
+    margin-bottom: 1em;
+}
+
+img {
+    height: 4em;
+}
