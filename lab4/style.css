@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.box {
+    width: 80em;
+    border: 1px solid #a2c7ba;
+    margin: 1em auto;
+}
+
+header, footer {
+    display: flex;
+    padding: 1em;
+    align-items: center;
+}
+
+header {
+    background-color: #a2cbbc;
+}
+
+footer {
+    background-color: #e3e3e3;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-left: 2em;
+}
+
+p {
+    text-decoration: underline;
+    margin-bottom: 2em;
+}
+
+button, input[type=reset] {
+    background-color: #7ba897;
+    border: none;
+    color: white;
+    padding: 0.5em 1.5em;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover, input[type=reset]:hover {
+    background-color: #3fa27c;
+}
+
+input[type=reset] {
+    margin-left: 1em;
+}
+
+.section {
+    padding: 2em 1em;
+}
+
+.d-flex, .form-control {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.d-flex-column div {
+    width: 25em;
+    padding-left: 4.5em;
+}
+
+.form-control {
+    margin-bottom: 1.5em;
+}
+
+.form-control > label {
+    font-weight: bold;
+}
+
+label {
+    margin-right: 5em;
+    position: relative;
+    tab-size: 100;
+}
+
+input[type=text], input[type=email], input[type=date], input[type=number], select, textarea {
+    width: 25em;
+    padding: 0.25em;
+}
+
+textarea {
+    height: 10em;
+}
+
+.required {
+    color: red;
+}
+
+img {
+    height: 3em;
+}
+
+.checker-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5em;
+}

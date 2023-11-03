@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Registration</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <header>
+            <h3>Workshop Registration</h3>
+            <a href="#">More Actions <i class="fa-solid fa-caret-down"></i></a>
+        </header>
+
+        <form action="#" method="GET">
+            <div class="section">
+                <div>
+                    <p>Register now while seats are available!</p>
+                </div>
+
+                <div class="d-flex">
+                    <div>
+                        <div class="form-control">
+                            <label for="firstname">First Name <span class="required">*</span></label>
+                            <input type="text" name="firstname" id="firstname" required>
+                        </div>
+
+                        <div class="form-control">
+                            <label for="lastname">Last Name <span class="required">*</span></label>
+                            <input type="text" name="lastname" id="lastname" required>
+                        </div>
+
+                        <div class="form-control">
+                            <label for="company">Company/Institution <span class="required">*</span></label>
+                            <input type="text" name="company" id="company" required>
+                        </div>
+
+                        <div class="form-control">
+                            <label for="address">Address <span class="required">*</span></label>
+                            <textarea name="address" id="address" required></textarea>
+                        </div>
+
+                        <div class="form-control">
+                            <label for="city">City</label>
+                            <input type="text" name="city" id="city">
+                        </div>
+
+                        <div class="form-control">
+                            <label for="state">State/Province/Region</label>
+                            <select name="state" id="state">
+                                <option>-Select-</option>
+                                <option value="CA">California</option>
+                                <option value="FL">Florida</option>
+                                <option value="IA">Iowa</option>
+                                <option value="NY">New York</option>
+                                <option value="TX">Texas</option>
+                            </select>
+                        </div>
+
+                        <div class="form-control">
+                            <label for="country">Country</label>
+                            <select name="country" id="country">
+                                <option>-Select-</option>
+                                <option value="CA">Canada</option>
+                                <option value="CHIN">China</option>
+                                <option value="JPN">Japan</option>
+                                <option value="NEP">Nepal</option>
+                                <option value="USA">United States of America</option>
+                            </select>
+                        </div>
+
+                        <div class="form-control">
+                            <label for="email">Email <span class="required">*</span></label>
+                            <input type="email" id="email" required>
+                        </div>
+
+                        <div class="form-control">
+                            <label for="phone">Phone Number <span class="required">*</span></label>
+                            <input type="number" name="phone" id="phone" required>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p>Lunch</p>
+
+                        <div class="form-control">
+                            <label for="meal">Meal Preference</label>
+                            <select name="meal" id="meal">
+                                <option value="vegetarian">Vegetarian</option>
+                                <option value="non_vegetarian">Non Vegetarian</option>
+                            </select>
+                        </div>
+
+                        <p>Payment Details</p>
+
+                        <div class="form-control">
+                            <label>Payment Mode</label>
+                            <div class="d-flex-column">
+                                <div>
+                                    <input type="checkbox" name="payment" value="cash" id="cash">
+                                    <label for="cash">Cash</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="payment" value="cheque" id="cheque">
+                                    <label for="cheque">Cheque</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="payment" value="demand_draft" id="demand_draft">
+                                    <label for="demand_draft">Demand Draft</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-control">
+                            <label for="cheque_no">DD/Cheque No.</label>
+                            <input type="text" name="cheque_no" id="cheque_no">
+                        </div>
+
+                        <div class="form-control">
+                            <label for="drawn_on">Drawn On (Bank Name)</label>
+                            <input type="text" id="drawn_on" name="drawn_on">
+                        </div>
+
+                        <div class="form-control">
+                            <label for="payable_at">Payable at</label>
+                            <input type="date" name="payable_at" id="payable_at">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <button>Submit</button>
+                <input type="reset">
+            </footer>
+        </form>
+    </div>
+
+    <div class="checker-container">
+        <a target="_blank" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fsanjeev-thapa.github.io%2Fmiu-wap%2Flab4%2Findex.html">
+            <img src="htmlchecker.png" alt="HTML Checker">
+        </a>
+
+        <a target="_blank" href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsanjeev-thapa.github.io%2Fmiu-wap%2Flab4%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+            <img src="csschecker.png" alt="CSS Checker">
+        </a>
+    </div>
+</body>
+
+</html>
