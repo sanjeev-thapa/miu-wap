@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Execution Context</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Exercise 1:</h1>
+    <img src="exercise1.jpg" alt="Exercise 1">
+
+    <h1>Exercise 2:</h1>
+    <img src="exercise2.jpg" alt="Exercise 2">
+
+    <h1>Exercise 3:</h1>
+    <h2>Please open console to see the results</h2>
+    <pre>function printNumbers(from, to) {
+        const timerId = setInterval(() => {
+            if (from >= to)
+                clearInterval(timerId);
+    
+            console.log(from++);
+        }, 1000);
+    }
+    
+    printNumbers(2, 8);</pre>
+    <script src="main.js"></script>
+</body>
+</html>

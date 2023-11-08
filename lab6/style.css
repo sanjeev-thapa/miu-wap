@@ -1,0 +1,19 @@
+body {
+    background-color: #efefef;
+    padding-left: 5em;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+img {
+    height: 25em;
+    border: 1px solid black;
+}
+
+h2 {
+    border: 1px solid black;
+    width: fit-content;
+    padding: 0.5em;
+}
