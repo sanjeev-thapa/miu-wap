@@ -1,0 +1,29 @@
+GET http://localhost:3000/books
+
+###
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+    "title": "Node JS",
+    "ISBN": "123456789",
+    "publishedDate": "November 20, 2023",
+    "author": "John Doe"
+}
+
+###
+GET http://localhost:3000/books/3
+
+###
+PUT http://localhost:3000/books/3
+Content-Type: application/json
+
+{
+    "title": "Express",
+    "ISBN": "123456789",
+    "publishedDate": "November 5, 2023",
+    "author": "John Smith"
+}
+
+###
+DELETE http://localhost:3000/books/3
